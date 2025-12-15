@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    
+}
+label{
+        font-size: 20px;
+        font-weight: bold;
+        color: aqua;
+        /* margin-bottom: 10px;
+        margin-left: 20px; */
+       padding-left: 20px;
+    }
+    input{
+        padding-left: 20px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+    }
+fieldset{
+    
+    background: #fff;
+   background-image: url('./img/wellimg.jpg');
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+legend{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(7, 199, 68);
+}
+

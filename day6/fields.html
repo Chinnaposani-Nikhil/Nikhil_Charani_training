@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form action="" method="post">
+
+<fieldset >
+    <legend><b>Personal Information</b></legend>
+    <label for="first name"> First Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+     <label for="last name"> Last Name </label>
+     <input type="text" name="name" id="name" placeholder="Enter your Surname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+    
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="phone" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="bio">Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</fieldset>
+<fieldset>
+    <legend><b>Education Information</b></legend>
+    <label for="highestDegree">Highest Degree:</label>
+    <select id="highestDegree" name="highestDegree">
+        <option value="highschool">High School</option>
+        <option value="bachelor">Bachelor's</option>
+        <option value="master">Master's</option>
+        <option value="phd">PhD</option>    
+    </select><br><br>
+    <label for="university">University/College:</label>
+    <input type="text" id="university" name="university" placeholder="Enter your institution"><br><br> 
+    <label for="graduationYear">Graduation Year:</label>
+    <input type="number" id="graduationYear" name="graduationYear" placeholder="e.g., 2023"><br><br>
+    <label for="fieldOfStudy">Field of Study:</label>
+    <input type="text" id="fieldOfStudy" name="fieldOfStudy" placeholder="e.g., Computer Science"><br><br> 
+    <input type="submit" value="Submit Education Info">
+   
+</fieldset>
+    <fieldset>
+    <legend><b>Skills</b></legend>
+    <label for="skills">Select your skills:</label><br> 
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <input type="checkbox" id="python" name="skills" value="Python">
+    <label for="python">Python</label><br>
+    <input type="checkbox" id="java" name="skills" value="Java">
+    <label for="java">Java</label><br><br>
+
+    <input type="submit" value="Submit Skills">
+    </fieldset>
+    <fieldset>
+    <legend><b>Work Experience</b></legend>
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" placeholder="Enter company name"><br><br>
+    <label for="position">Position/Role:</label>
+    <input type="text" id="position" name="position" placeholder="Enter your position"><br><br>
+    <label for="duration">Duration (in years):</label>
+    <input type="number" id="duration" name="duration" placeholder="e.g., 2"><br><br>
+    <label for="resume"> Resume</label>
+    <input type="file" id="resume" name="resume"><br><br>
+    <label for="responsibilities">Key Responsibilities:</label><br>
+    <textarea id="responsibilities" name="responsibilities" rows="4" cols="50" placeholder="Describe your responsibilities"></textarea><br><br>
+    <input type="submit" value="Submit Work Experience">
+    </fieldset>
+    <fieldset>
+    <legend><b>Contact Preferences</b></legend>
+    <label for="contactMethod">Preferred Contact Method:</label><br>
+    <input type="radio" id="emailContact" name="contactMethod" value="email">
+    <label for="emailContact">Email</label><br>
+    <input type="radio" id="phoneContact" name="contactMethod" value="phone">
+    <label for="phoneContact">Phone</label><br>
+    <input type="radio" id="mailContact" name="contactMethod" value="mail">
+    <label for="mailContact">Mail</label><br><br>
+    <label for="bestTime">Best Time to Contact:</label>
+    <select id="bestTime" name="bestTime">
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="evening">Evening</option>
+    </select><br><br>
+    <input type="submit" value="Submit Contact Preferences">
+    </fieldset>
+  <fieldset>
+    <legend><b>Feedback Form</b></legend>
+    <label for="service">Rate our service:</label><br>
+    <input type="radio" id="excellent" name="service" value="excellent">
+    <label for="excellent">Excellent</label><br>
+    <input type="radio" id="good" name="service" value="good">
+    <label for="good">Good</label><br>
+    <input type="radio" id="average" name="service" value="average">
+    <label for="average">Average</label><br>
+    <input type="radio" id="poor" name="service" value="poor">
+    <label for="poor">Poor</label><br><br>
+
+    <label for="improvements">Suggestions for improvement:</label><br>
+    <input type="range" name="" id=""><br>
+    <textarea id="improvements" name="improvements" rows="4" cols="50" placeholder="Your suggestions"></textarea><br><br>
+
+    <input type="submit" value="Submit Feedback">
+  </fieldset>
+  
+  
+  </form>
+</body>
+</html>
