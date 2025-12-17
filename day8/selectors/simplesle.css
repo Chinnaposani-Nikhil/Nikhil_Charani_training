@@ -1,0 +1,23 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } */
+ #d1{
+    background-color: blue;
+}
+.demo{
+    background-color: blueviolet;
+}
+footer{
+    background-color: aqua;
+}
+span,div,aside{
+    background-color: brown;
+}
+body{
+    background-color:yellowgreen;
+}
+*{
+    background-color:gray;
+}
