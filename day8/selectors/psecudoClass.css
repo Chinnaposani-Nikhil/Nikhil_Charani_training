@@ -1,0 +1,27 @@
+a:link{
+    color: green;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+    color: brown;
+}
+section:hover{
+    color: aqua;
+    border: 2px solid;
+}
+#inp1::placeholder{
+    background-color:gray;
+    color: red;
+}
+#inp2:checked{
+    accent-color: red;
+    height: 100px;
+    width: 100px;
+}
+#inp3:checked{
+    accent-color: rgb(0, 255, 179);
+    height: 100px;
+    width: 100px;
+}

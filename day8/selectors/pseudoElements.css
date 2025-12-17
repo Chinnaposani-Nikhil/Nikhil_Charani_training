@@ -1,0 +1,34 @@
+section::first-letter{
+    background-color: blue;
+}
+section::first-line{
+    background-color: brown;
+}
+ol>li::selection{
+    background-color: rgb(129, 180, 27);
+    color:red;
+   
+}
+ol{
+    margin-left: 50%;
+    width: 40px;
+}
+ol>li::marker
+{
+    content: "👍";
+    content: url(../images/IMG_20241020_160053.jpg);
+}
+
+ol>li+li::marker{
+    content: "😊";
+}
+ol>li+li+li::marker{
+    content: "👌";
+}
+p::before{
+    content: " hi this css content .../";
+    content: url(../images/download.jpg);
+}
+p::after{
+    content: "  ////  hi this css after content";
+}

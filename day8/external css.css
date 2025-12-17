@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgrey;
+    padding: 20px;
+
+}
+
+p{
+    border: 2px solid;
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+}
+div {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+    background-image: url(./img/ecommerce-website-icon-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
