@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* universal selector css */
+    *{
+      
+        background-color: rgb(229, 13, 13);
+    }
+    body{
+        background-color: rgb(239, 239, 5); ;
+    }
+     /* attribute selectors example css */
+    [type]{
+        background-color: lightcoral;
+        color: tomato;
+    }
+
+    [type="text"]{
+        border: 2px solid green; 
+        color: white;   
+    }
+    [class~="nikhil"]{
+        font-size: 20px;
+        font-weight: bold;
+        color: blueviolet;
+
+    }
+    p[lang |= "en"]{
+        background-color: lightgreen;
+        color: darkgreen;
+    }
+     /* element selectors example css */
+    aside{
+        border: 2px dashed purple;
+        background-color: lawngreen;
+    }
+    div h1{
+        color: orange;
+    }
+    div>h1{
+        color: yellow;
+    }
+    div section h2{
+        color: red;
+    }
+    
+    a:hover {
+  color: red;
+}
+
+input:focus {
+  border-color: rgb(6, 6, 33);
+  
+}
+/* id selector  */
+#id1 {
+  background-color: black;
+  color: white;
+
+}
+/* class selector */
+.class1 {
+  background-color: teal;
+  color: white;
+}
+/* group selectors example css */
+   
+aside,img{
+        border: 3px dotted brown;
+        height: 100px;
+        width: 200px;
+    }
+    /* decandent selectors css */
+    article h1{
+        background-color: pink;
+        color: purple;
+    }
+     /* article>h1{
+        background-color: lightgray;
+        color: darkgray;
+    } */
+    article>h1~h2{
+        background-color: lightblue;
+        color: navy;
+    } 
+
+</style>
+<body>
+    <br>
+    <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div>
+    <p class="nikhil">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis?</p>
+    <p class="nikhil chinnaposani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ut!</p>
+    <p class="chinnaposani">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, voluptate!</p>
+    </div>
+
+
+        <p lang="en">This paragraph is in English.</p>
+        <p lang="fr">Lorem, ipsum dolor..</p>
+        <p lang="en-es">Lorem ipsum dolor sit.</p>
+
+ <!-- element selectors example -->
+   
+    <div>
+        <h1>h1 from div</h1>
+        <h2>h2 from div</h2>
+        <section>
+            <h1>h1 from section</h1>
+            <h2>h2 from section </h2>
+        </section>
+    </div>
+   <!-- ID selector example -->
+    <a href="">google</a>
+    <h1 id="id1">nikhil </h1>
+    <h1> hyderabad</h1>
+    <h1> class</h1>
+    <h1> book</h1>
+
+    <!-- class selector -->
+    <h2 class="class1">hi h2</h2>
+    <h2>hi h2</h2>
+    <h2 class="class1"> hello h2</h2>
+    <h2 class="class1"> hello h2</h2>
+
+   <!-- group selectors example -->
+     <aside>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, fuga.</aside>
+    <img src="" alt="">
+    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magni.</footer>
+    <aside>Lorem ipsum dolor sit amet consectetur.</aside>
+
+    <!-- decandent selectors -->
+    <article>
+        <h1> div h1</h1>
+        <h1> div h1</h1>
+        <h2>div h2</h2>
+        <section>
+            <h1>section h1</h1>
+            <h2> div section h2</h2>
+            <h2> div section h2</h2>
+        </section>
+        <h1>hi h1</h1>
+        <h2>hi h2</h2>
+
+    </article>
+  
+</body>
+</html>
