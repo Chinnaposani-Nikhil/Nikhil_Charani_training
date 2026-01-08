@@ -1,0 +1,44 @@
+aside{
+    border: 2px solid;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 110px 110px 110px;
+    justify-content:center;
+    align-content:flex-end ;
+   
+}
+/* div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+} 
+section{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+aside{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+
+} */
+
+/* nav{
+    border: 2px solid red;
+    /* height: 100px; 
+    float: right;
+
+} */
+
+/* nav>ol{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+} */
+
+
