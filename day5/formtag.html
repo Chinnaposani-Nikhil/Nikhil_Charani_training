@@ -6,24 +6,62 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <style>
+        form{
+            border:2px solid black;
+            width:900px;
+            padding:20px;
+            margin:auto;
+            background-color:lightgrey;
+        }
+        
+    </style>
+    <form action="" method="post" method="get"  method="dialog"  > </form>
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"  ><br>
+        <input type="text" id="fname" name="fname" autocomplete="on" autofocus ><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" ><br><br>
+        <input type="text" id="lname" name="lname"autocomplete="off"  ><br><br>
         <label for="mail"> email</label>
         <input type="email" id="mail" name="mail" placeholder=" enter your mail id " ><br><br>
         <label for="password">Password </label>
-        <input type="password" id="password" name="password" placeholder=" enter your password " ><br><br>
+        <input type="password" id="password" name="password" placeholder=" enter your password " ><br>
+        <label for="n2">password:</label>
+        <input type="password" name="" id="n2" pattern="[A-Z]{1} [a-z]{1-10} [@,.,#,$,%,*,]{1} [1-9]{2}"  > <br>
+        <label for="">linkedin url</label>
+         <input type="url" placeholder="https://example.com">
+        <br>
         <label for="phone"> phone number</label>
-        <input type="tel" id="phone" name="phone" placeholder=" enter yor phone number " ><br><br>
+        <input type="tel" id="phone" name="phone" placeholder=" enter yor phone number " minlength="10" maxlength="10"  ><br><br>
+        <label for="">age:</label>
+        <input type="number" name="" id="" max="26" min="21" step="5"   autocomplete="on" autofocus> <br>
 
+        <label for="">Name : </label>
+        <input type="text" name="" id="" disabled value="nikhil"> <br>
+        <label for="hi"> name : </label>
+        <input type="text" name="" id=""  readonly value="nikhil"> <br>
+       
+        <label for="id">hidden:</label>
+        <input type="text" name="" id="id" hidden placeholder="hidden" ><br>
         <label for="gn">gender:</label>
-        <input type="radio" name="gender" id="gn">male
-        <input type="radio" name="gender" id="gn">female
+        <br>
+        male <input type="radio" name="gender" id="gn"> 
+        female <input type="radio" name="gender" id="gn">
+        <br>
         <label for="">resume</label>
-        <input type="file" name="resume" id="">
-        <br><br>
+        <input type="file" name="resume" id="" multiple  accept=".pdf, .docx, .doc">
+        <label for="col"> color picker</label>
+        <input type="color" name="col" id="">
+        <br>
+        <input type="checkbox" name="" id=""> agree to terms and conditions
+        <br>
+        <label for="dob">DOB:</label>
+        <input type="datetime-local" name="" id="dob"> <input type="week" name="" id=""> <input type="month" name="" id=""><br>
+        <label for="">appointment:</label> 
+        <input type="date" name="" id=""> <input type="time" name="" id="">
+        <br>
+
+        <br> <br>
+
         <label for="edu"> education Detalis</label>
         <select name="" id="edu"> 
             <option value="">select option </option>
@@ -34,19 +72,19 @@
         </select>
         <br><br>
         <label for="bio"> short bio</label><br>
-        <textarea name="bio" id="bio" cols="30" rows="10" placeholder=" write something about you "></textarea>
+        <textarea name="bio" id="bio" cols="10" rows="0" placeholder=" write something about you "></textarea>
         <br><br>
         <label for="collage"> collage Name </label>
-         <input type="text" list="collage">
-        <datalist id="collage" >
-           <optgroup>
+        <select id="collage" >
+             <option value="">select option </option>
+           <optgroup label="top 10">
             <option value="oxford collage"> oxford collage </option>
             <option value="harvard collage"> harvard collage </option>
             <option value="stanford collage"> stanford collage </option>
             <option value="cambridge collage"> cambridge collage </option>
             <option value="yale collage"> yale collage </option>
            </optgroup>
-           <optgroup>
+           <optgroup label="top 5 in india">
             <option value="IIT"> IIT </option>
             <option value="NIT"> NIT </option>
             <option value="BITS"> BITS </option>
@@ -61,7 +99,7 @@
             <option value="Mumbai university"> Mumbai university </option>
            </optgroup>
 
-        </datalist>
+        </select>
 <br><br><br>
 
         <label for="n1">country</label>
@@ -81,9 +119,42 @@
 
         </datalist>
 
+         <form action="">
+        <fieldset>
+            <legend align="center">login</legend>
+           
+                <label for="">name:</label>
+                <input type="text" name="" id=""> <br>
+                <label for="">moblie no:</label>
+                <input type="text" name="" id="">
+                <input type="submit" name="" id="">
+            
+        </fieldset>
+        </form>
 
-        <br><br><br>
+        <br><br> 
         <input type="submit" value="Submit">
+        <button>submit</button>
+        <input type="reset" value="Reset Form">
+        <input type="range" min="0" max="100">
+        <input type="search" placeholder="Search here">
+       <input type="" name="" id="">
+
+       
     </form>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+
 </body>
 </html>
