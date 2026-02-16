@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+.scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.scroll img {
+  width: 200px;
+  height: 150px;
+}
+
+.tr img { opacity: 0.5; }
+img:hover { opacity: 1; }
+
+.sticky img {
+  position: sticky;
+  top: 10px;
+}
+.flip:hover { transform: rotateY(180deg); transition: 1s; }
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+}
+.shake:hover { animation: shake 0.3s; }
