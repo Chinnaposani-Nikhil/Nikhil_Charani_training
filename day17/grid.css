@@ -9,7 +9,7 @@ aside{
     align-content:flex-end ;
    
 }
-/* div{
+div{
     border: 2px solid;
     height: 100px;
     width: 100px;
@@ -25,20 +25,20 @@ aside{
     width: 100px;
     box-sizing: border-box;
 
-} */
+}
 
-/* nav{
+ nav{
     border: 2px solid red;
-    /* height: 100px; 
+     height: 100px; 
     float: right;
 
-} */
+} 
 
-/* nav>ol{
+ nav>ol{
     display: flex;
     list-style: none;
     gap: 20px;
    
-} */
+} 
 
 
